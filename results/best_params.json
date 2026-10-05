@@ -1,0 +1,82 @@
+{
+ "A1|kNN": {
+  "n_neighbors": 15,
+  "weights": "distance",
+  "metric": "manhattan"
+ },
+ "A1|Árvore de Decisão": {
+  "criterion": "entropy",
+  "max_depth": 10,
+  "min_samples_leaf": 1
+ },
+ "A1|MLP": {
+  "hidden_layer_sizes": [
+   64
+  ],
+  "activation": "relu",
+  "alpha": 0.0001
+ },
+ "A1|Random Forest": {
+  "n_estimators": 200,
+  "max_depth": 8,
+  "max_features": "sqrt"
+ },
+ "A1|SVM": {
+  "kernel": "rbf",
+  "C": 100,
+  "gamma": 0.01
+ },
+ "A2|kNN": {
+  "n_neighbors": 3,
+  "weights": "uniform",
+  "metric": "manhattan"
+ },
+ "A2|Árvore de Decisão": {
+  "criterion": "gini",
+  "max_depth": 8,
+  "min_samples_leaf": 1
+ },
+ "A2|MLP": {
+  "hidden_layer_sizes": [
+   16,
+   8
+  ],
+  "activation": "relu",
+  "alpha": 0.01
+ },
+ "A2|Random Forest": {
+  "n_estimators": 100,
+  "max_depth": 8,
+  "max_features": null
+ },
+ "A2|SVM": {
+  "kernel": "linear",
+  "C": 0.1
+ },
+ "A2P|kNN": {
+  "n_neighbors": 9,
+  "weights": "uniform",
+  "metric": "euclidean"
+ },
+ "A2P|Árvore de Decisão": {
+  "criterion": "gini",
+  "max_depth": 3,
+  "min_samples_leaf": 1
+ },
+ "A2P|MLP": {
+  "hidden_layer_sizes": [
+   16
+  ],
+  "activation": "tanh",
+  "alpha": 0.01
+ },
+ "A2P|Random Forest": {
+  "n_estimators": 10,
+  "max_depth": 3,
+  "max_features": "sqrt"
+ },
+ "A2P|SVM": {
+  "kernel": "linear",
+  "C": 0.1
+ }
+}

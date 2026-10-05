@@ -1,0 +1,96 @@
+{
+  "uci_total": 958,
+  "uci_labels": {
+    "positive": 626,
+    "negative": 332
+  },
+  "uci_relabel": {
+    "x_venceu": 626,
+    "o_venceu": 316,
+    "empate": 16
+  },
+  "reachable_total": 5478,
+  "reachable_by_class": {
+    "tem_jogo": 4520,
+    "x_venceu": 626,
+    "o_venceu": 316,
+    "empate": 16
+  },
+  "uci_equals_terminal": true,
+  "split_table": {
+    "tem_jogo": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "x_venceu": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "o_venceu": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "empate": {
+      "train": 120,
+      "val": 3,
+      "test": 3
+    }
+  },
+  "split_table_unique": {
+    "tem_jogo": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "x_venceu": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "o_venceu": {
+      "train": 120,
+      "val": 40,
+      "test": 40
+    },
+    "empate": {
+      "train": 10,
+      "val": 3,
+      "test": 3
+    }
+  },
+  "final_unique": 616,
+  "n_per_class_unique": {
+    "tem_jogo": 200,
+    "x_venceu": 200,
+    "o_venceu": 200,
+    "empate": 16
+  },
+  "ply_by_class": {
+    "tem_jogo": {
+      "0": 1,
+      "1": 1,
+      "2": 3,
+      "3": 11,
+      "4": 33,
+      "5": 50,
+      "6": 60,
+      "7": 31,
+      "8": 10
+    },
+    "x_venceu": {
+      "5": 38,
+      "7": 142,
+      "9": 20
+    },
+    "o_venceu": {
+      "6": 94,
+      "8": 106
+    },
+    "empate": {
+      "9": 16
+    }
+  }
+}

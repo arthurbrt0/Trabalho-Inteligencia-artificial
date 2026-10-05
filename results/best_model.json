@@ -1,0 +1,8 @@
+{
+  "approach": "A2",
+  "algo": "Árvore de Decisão",
+  "params": "criterion=gini, max_depth=8, min_samples_leaf=1",
+  "val_f1": 0.7951706608569354,
+  "test_acc": 0.8617886178861789,
+  "test_f1": 0.8030855947828884
+}
